@@ -1,0 +1,13 @@
+/* Example CSS for styling buttons as normal text in the sidebar */
+
+div.stButton > button {
+    background-color: transparent !important;
+    border: none !important;
+    color: inherit !important; /* Use the theme's text color */
+    font-size: 24px !important; /* Adjust font size as desired */
+    font-weight: bold !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    cursor: pointer !important; /* Show pointer to indicate it's clickable */
+}
